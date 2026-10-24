@@ -44,15 +44,15 @@ You will know this step has been completed successfully for an event when the or
 
 Event organizers might need to perform some steps after papers have been accepted in Easychair, so you can proceed with the camera-ready process as ProC. If the event already has the necessary licenses stated above and clear instructions on what to do, this can be as simple as a few clicks.
 
-The main issue here is organizers availability (due to August). Ideally, one of the organizers of each event should be available at any point during the camera-ready process (because that is one of the reasons to have several people for each role, right?). Our advice is asking their availability during the dates you would need their help. The Workshop Chairs should help you with the communication with the numerous workshops of this conference, so check their availability as well. Also, it will not hurt to ask the Workshop Chairs for their list of emails in case you need to quickly contact the organizers of a concrete event.
+The main issue here is organizers availability (due to August). Ideally, one of the organizers of each event should be available at any point during the camera-ready process (because that is one of the reasons to have several people for each role, right?). Our advice is asking their availability during the dates you would need their help. The Workshop Chairs should help you communicate with the numerous workshops of this conference, so check their availability as well. Also, it will not hurt to ask the Workshop Chairs for their list of emails in case you need to quickly contact the organizers of a concrete event.
 
 #### ACM
 
-The *volume manager (ACM Proceedings)* in EasyChair can see the list of papers that have been added to the proceedings. It can also add papers marked as *accepted* in the event, but we would advice that this step is only done by event organizers, for reasons such as papers pending conditional acceptance.
+The *volume manager (ACM Proceedings)* in EasyChair can see the list of papers that have been added to the proceedings. It can also add papers marked as *accepted* in the event, but we would advice that this step is *only done by event organizers*, for reasons such as papers pending conditional acceptance.
 
 ### Help establish a common process for conditional acceptance
 
-If no instructions are given on how papers can be conditionally accepted after attending some change requests, the organizers of each event will arbitrarily come up with their own, and each will be different to the others. This can cause delays, confusion, and doubts on whether the list of accepted papers of an event was final (we had events accepting papers hours before the CR deadline).
+If no instructions are given on how papers can be conditionally accepted after attending some change requests, the organizers of each event will arbitrarily come up with their own, and each will be different to the others. This can cause delays, confusion, and doubts on whether the list of accepted papers of an event is final (we had events accepting papers *hours before the CR deadline*, to the disgrace of their authors).
 
 We would advice discussing with PC, Workshop and Satellite events's chairs whether to allow a conditional acceptance process, and if so, to ensure its dates do not conflict with the camera-ready submission.
 
@@ -64,15 +64,21 @@ Then, what that date *cannot* be is the CR deadline for the authors. There will 
 
 ### Stagger camera-ready deadlines for main and companion proceedings
 
-This was a great idea (thanks Mehrdad!) that allowed us to learn about the CR process with a subset of all the papers. The accepted papers of the main proceedings (e.g. Research and NIER tracks) will be accepted way before the ones that end up in the companion. Also, the main proceedings have less papers, so it is good to discover any issues and potential delays before the companion proceedings start. Having a difference of 2-3 weeks was reasonable.
+This was a great idea (thanks Mehrdad!) that allowed us to learn about the CR process with a subset of all the papers. The accepted papers of the main proceedings (e.g. Research and NIER tracks) will be known way before the ones of the companion. Also, the main proceedings have less papers, so it is good to discover any issues and potential delays before the companion proceedings start. Having a difference of 2-3 weeks was reasonable.
 
 ## After papers have been accepted
 
-### Camera-ready instructions
+### Ensure the list of accepted papers is final
+
+Double-check with the organizers of each event whether the list of accepted papers is final. Ask organizers to add the papers to the EasyChair proceedings.
+
+### Camera-ready (CR) instructions
+
+Compose the CR instructions with the information received from the editorial (ACM/IEEE) contacts.
 
 ## Contributors
 
 - Alfonso de la Vega (MODELS'26 Proceedings Chair)
 - Iván Alfonso (MODELS'26 Proceedings Chair)
 
-If you are a newer PC and want to contribute, please either send a pull request, or an [email](mailto:alfonso.delavega@unican.es) so that we can give you access to the repository.
+If you are a newer ProC and want to contribute, please either send a pull request or an [email](mailto:alfonso.delavega@unican.es), so that we can give you access to the repository.
