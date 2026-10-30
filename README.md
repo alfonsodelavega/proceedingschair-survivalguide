@@ -31,20 +31,18 @@ Two options here:
 - Ensure the event organizers ask Easychair for these licenses themselves.
 - It would be better to give Easychair support a list of the co-located events, so that they can add the licenses to them in batch. Probably easier and faster than coordinating tens of event organizers, but we didn't test this.
 
-#### ACM license
+#### ACM
 
 These are the two EasyChair features that were needed in our case:
 
 - Helpdesk Questions and Technical Support: useful in case things go south (we have proof of this D:).
-- ACM Proceedings Management: allows exporting XML metadata in the format that can be imported into the ACM eRights system.
-
-You will know this step has been completed successfully for an event when the organizers have given both ProCs the *volume manager (ACM Proceedings)* role.
+- ACM Proceedings Management: allows exporting XML metadata in the format that can be imported into the ACM eRights system. You will know this step has been completed successfully for an event when the organizers have given both ProCs the *volume manager (ACM Proceedings)* role.
 
 ### Ensure event organizers know what you would need, and when
 
 Event organizers might need to perform some steps after papers have been accepted in Easychair, so you can proceed with the camera-ready process as ProC. If the event already has the necessary licenses stated above and clear instructions on what to do, this can be as simple as a few clicks.
 
-The main issue here is organizers availability (due to August). Ideally, one of the organizers of each event should be available at any point during the camera-ready process (because that is one of the reasons to have several people for each role, right?). Our advice is asking their availability during the dates you would need their help. The Workshop Chairs should help you communicate with the numerous workshops of this conference, so check their availability as well. Also, it will not hurt to ask the Workshop Chairs for their list of emails in case you need to quickly contact the organizers of a concrete event.
+The main issue here is organizers availability (due to [August](#doing-the-cr-in-august-is-the-main-issue)). Ideally, one of the organizers of each event should be available at any point during the camera-ready process (because that is one of the reasons to have several people for each role, right?). Our advice is asking their availability during the dates you would need their help. The Workshop Chairs should help you communicate with the numerous workshops of this conference, so check their availability as well. Also, it will not hurt to ask the Workshop Chairs for their list of emails in case you need to quickly contact the organizers of a concrete event.
 
 #### ACM
 
@@ -68,13 +66,40 @@ This was a great idea (thanks Mehrdad!) that allowed us to learn about the CR pr
 
 ## After papers have been accepted
 
-### Ensure the list of accepted papers is final
+### Ensure the list of accepted papers of each event is final
 
 Double-check with the organizers of each event whether their list of accepted papers is final (precisely, ask if there are papers pending conditional acceptance). Ask organizers to add the papers to the EasyChair proceedings.
 
 ### Camera-ready (CR) instructions
 
-Compose the CR instructions with the information received from the editorial (ACM/IEEE) contacts.
+Compose the CR instructions with the information received from the editorial (ACM/IEEE) contacts. These instructions might be different between events (e.g. due to different paper length limits). Event organizers will usually be the ones sending out this information to the accepted papers.
+
+The [camera-ready-instructions](camera-ready-instructions/) folder contains examples of previous years.
+
+#### ACM (TAPS)
+
+We updated the uploaded camera-ready instructions for MODELS'26 to emphasize the greatest source of delays during the process, at least when using TAPS for managing papers. This is the relevant paragraph:
+
+> [!IMPORTANT]
+> THE AUTHOR NAMES, EMAILS AND AFFILIATIONS YOU FILL IN THE ERIGHTS FORM WILL BE USED TO OVERRIDE YOUR PAPER SOURCES.
+>
+> Please be aware that ACM TAPS enforces that the details introduced in the erights form are identical to the ones present in the paper. These details include the paper title, author names, emails and affiliations. TAPS will overwrite the sources of your Latex/Word manuscripts with the details used in the form. Therefore, as corresponding author you must carefully review the information of every author in the article. Failure to do so can cause issues, such as papers not fitting in the max length anymore (due to extra vertical space required).
+
+### Upload paper metadata to the required system
+
+Easychair allows extracting paper's metadata so it can be ingested into the required next system. For instance, for ACM this is required to fill the ERights form that need to be signed for each paper.
+
+If exporting the data from Easychair is needed, a general tip: suffix paper ids provided by EasyChair with the event acronym (e.g. NIER-5, ME-2). This will avoid any collisions later on, and it will be really helpful to know which event a paper belongs to quickly.
+
+## (ACM) Issues and how to fix them
+
+### (ERights) Form mistake, need reset
+
+### (ERights) Form appears duplicated
+
+In some cases, the row for some papers appears twice or more times, with some of them completed, but some not. In our case, the reason for this was that ACM needed each of the authors to complete a separate form. So, double-check that the authors are aware of this.
+
+### (TAPS) Paper blocked at 25%
 
 ## Contributors
 

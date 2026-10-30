@@ -1,0 +1,52 @@
+Instructions for the Camera-Ready Preparation
+
+
+Congratulations again on your accepted paper.
+
+This email includes the instructions you will need to follow to prepare and submit the camera-ready version of your paper. Accepted papers will be published by ACM and will be included in the ACM Digital Library.
+
+PREPARING YOUR CAMERA-READY VERSION
+
+- Address all the reviewers’ comments to the best of your ability.
+
+- Add the ACM copyright block and bibliographic strip to your paper. The instructions for receiving both are given below.
+
+- Mind the formatting instructions given below.
+
+ACM COPYRIGHT BLOCK AND BIBLIOGRAPHIC STRIP
+
+- You will receive an e-mail by ACM in the following days to complete their e-Rights management form. After completing the form, you will be sent a rights text and a bibliographic strip to place within your paper.
+
+- There is a chance that emails from ACM will wind up in spam folders. Please set your email spam settings to allow emails from rightsreview@acm.org.
+
+- The title, author names, and affiliations you enter in the e-Rights form will override what is in your source file in the published version. Please ensure this information is correct before submitting the form.
+
+SUBMITTING YOUR CAMERA-READY VERSION
+
+The camera-ready version must be submitted by August 14 (AoE). This is a strict deadline.
+
+After you have completed your rights form, you will receive a separate email from TAPS with instructions on how to upload your manuscript sources for processing. Again, there is a chance that this email is treated as spam, so you must allow emails from tapsadmin@aptaracorp.awsapps.com.
+
+Submitting instructions when using TAPS are defined in https://authors.acm.org/proceedings/production-information/taps-production-workflow for both LaTeX and Word users. In particular, these instructions specify the structure of the zip file you must create with your sources, and filename conventions. After uploading this zip file you will receive an email with the resulting PDF and HTML5 versions to verify and either resubmit or approve. Please check both formats carefully, as figures, tables, and math may render differently in HTML5.
+
+THE AUTHOR NAMES, EMAILS AND AFFILIATIONS YOU FILL IN THE ERIGHTS FORM WILL BE USED TO OVERRIDE YOUR PAPER SOURCES.
+
+Please be aware that ACM TAPS enforces that the details introduced in the erights form are identical to the ones present in the paper. These details include the paper title, author names, emails and affiliations. TAPS will overwrite the sources of your Latex/Word manuscripts with the details used in the form. Therefore, as corresponding author you must carefully review the information of every author in the article. Failure to do so can cause issues, such as papers not fitting in the max length anymore (due to extra vertical space required).
+
+FORMATTING INSTRUCTIONS
+
+- Page limit for the camera-ready version keeps being 6 pages for the main text, including all figures, tables, appendices, etc. One more page containing only references is permitted.
+
+- Formatting instructions are available at https://www.acm.org/publications/proceedings-template for both LaTeX and Word users. LaTeX users must use the provided acmart.cls and ACM-Reference-Format.bst without modification, enable the conference format in the preamble of the document (\documentclass[sigconf]{acmart}), and use the ACM reference format for the bibliography.
+
+- You should apply the ACM Computing Classification categories and terms (CCS) from https://dl.acm.org/ccs to your paper.
+
+- ACM offers 24/7 author support for their templates through their vendor, Aptara. In case of TeX/MS-Word template problems or inquiries, please contact acmtexsupport@aptaracorp.com.
+
+All questions about papers should be sent to the proceedings chairs:
+
+Iván Alfonso (ivan.alfonso@list.lu)
+Alfonso de la Vega (alfonso.delavega@unican.es) 
+
+All the best,
+Iván, Alfonso
