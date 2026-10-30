@@ -70,7 +70,7 @@ This was a great idea (thanks Mehrdad!) that allowed us to learn about the CR pr
 
 ### Ensure the list of accepted papers is final
 
-Double-check with the organizers of each event whether the list of accepted papers is final. Ask organizers to add the papers to the EasyChair proceedings.
+Double-check with the organizers of each event whether their list of accepted papers is final (precisely, ask if there are papers pending conditional acceptance). Ask organizers to add the papers to the EasyChair proceedings.
 
 ### Camera-ready (CR) instructions
 
