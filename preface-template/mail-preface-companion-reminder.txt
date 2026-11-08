@@ -1,0 +1,17 @@
+Subject: 
+  [event-name]: preface for MODELS 2026 Companion Proceedings
+
+Dear organizers,
+
+Just a quick reminder that we still need the preface of your event for the MODELS 2026 Companion Proceedings.
+
+We have attached again the .tex template with the instructions, as well as the MODELS 2024 Companion Proceedings frontmatter as an example. Please send us back the completed .tex file, renamed based on your event, including the preface and the list of accepted papers.
+
+Don't worry about the formatting or style at this point, we will combine all the prefaces later to create the final frontmatter.
+
+We would need to receive it by Friday, August 21, so that we can complete the proceedings and have everything ready for the conference.
+
+Thanks a lot for your help!
+
+Cheers,
+Alfonso and Iván

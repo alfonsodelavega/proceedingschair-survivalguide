@@ -1,0 +1,14 @@
+Dear author,
+
+This is caused by incorrect details filled in the erights form.
+
+Paper title and authors' data is taken from the erights form by TAPS, and used to override your latex sources. So, to fix this, I'm afraid we need to restart the whole process. Fortunately it does not take long.
+
+I've just reset your form. Here's the link:
+
+Please fill that just as you want your author emails and affiliations to appear in the paper. You can leave non-mandatory fields empty and they will be omitted from the author affiliation.
+
+
+Once you finish filling the form, let us know so we can check the TAPS information. We might need to ask TAPS support to re-pull erights data before you can proceed. Do not proceed with TAPS submission until we tell you so.
+
+Kind regards,

@@ -1,0 +1,17 @@
+Dear organizers of events that end up in MODELS companion proceedings,
+
+
+Thanks a lot. With your help, we have been able to start the camera-ready process for almost all papers at this point.
+
+
+The next thing that we need from you is the preface of your event, which will be included in the companion proceedings frontmatter we must submit to ACM along with the camera-ready papers.
+
+Attached you can find a .tex file with instructions on how to write the preface. You must simply send us back the .tex file (renamed based on your event) with Section 2 filled with the preface contents and a list of the accepted papers. Disregard style of the template at this point, we'll combine your prefaces later to create the final frontmatter.
+
+
+As reference, please find also attached the frontmatter of the last MODELS edition managed by ACM (i.e. the 2024 one), as the ones managed by IEEE are a bit different.
+
+Any questions, please tell us.
+
+Cheers,
+Alfonso and Iván
