@@ -22,6 +22,10 @@ You must understand that many people will take annual leave (or will be already 
 
 This is fundamental to keep track of some of the steps described below. Events will be published as part of the MODELS main proceedings (Research and NIER tracks in MODELS'26) or the Companion proceedings (the other satellite events and workshops). Double-check these lists with MODELS organizers so you are not missing anything.
 
+### Ask about keynote papers early
+
+Some co-located events (and even co-located conferences) may want their keynote speakers to publish a short paper as part of the proceedings. Clarify this with the organizers of MODELS. In our case, some events asked us to include these papers just a couple of days before the CR deadline. Keynote papers go through the same process as any other paper, so you need to know about them in advance to have enough time to process them.
+
 ### Ensure the Easychair events have asked for the appropriate license
 
 Each co-located MODELS event (e.g. satellite events, workshops) will have access to the same EasyChair license as the main conference events. However, organizers of these events must ask EasyChair support themselves to obtain this license. It can be done weeks/months in advance, as soon as the event has been created in EasyChair as part of a MODELS conference. We can confirm doing it *just when you need to extract the accepted papers' metadata* will translate in delays even before the camera-ready process can be started for those papers.
@@ -70,6 +74,10 @@ This was a great idea (thanks Mehrdad!) that allowed us to learn about the CR pr
 
 Double-check with the organizers of each event whether their list of accepted papers is final before processing it. Precisely, ask if there are papers pending [conditional acceptance](#help-establish-a-common-process-for-conditional-acceptance). Ask organizers to add the papers to the EasyChair proceedings.
 
+### Ask organizers to disable paper uploads in EasyChair during the CR
+
+If the CR is not submitted through EasyChair (e.g. we used TAPS for MODELS'26), ask the organizers of each event to disable the upload of new paper versions in EasyChair during the CR stage. Even if the CR instructions clearly say where the CR should be uploaded, some authors will assume it goes through EasyChair as usual, ignore the instructions and upload their CR there (we had several cases in MODELS'26). Then, you have to contact each of them to redirect them to the right system. It is better if the upload is simply disabled.
+
 ### Camera-ready (CR) instructions
 
 *This step can also be done while papers have not yet been accepted, we place it here because it's when the instructions are needed.*
@@ -87,11 +95,17 @@ We updated the uploaded camera-ready instructions for MODELS'26 to emphasize the
 >
 > Please be aware that ACM TAPS enforces that the details introduced in the erights form are identical to the ones present in the paper. These details include the paper title, author names, emails and affiliations. TAPS will overwrite the sources of your Latex/Word manuscripts with the details used in the form. Therefore, as corresponding author you must carefully review the information of every author in the article. Failure to do so can cause issues, such as papers not fitting in the max length anymore (due to extra vertical space required).
 
+A common case: authors adding the department of their institution in the ERights form. The department will then also appear in the paper, which can increase its length and even push it over the page limit.
+
 ### Include event prefixes in papers IDs before uploading paper metadata to any other system
 
 EasyChair allows extracting paper's metadata so it can be ingested into the required next system. For instance, for ACM this is required to fill the ERights form that need to be signed for each paper.
 
 If exporting the data from Easychair is needed, a general tip: prefix paper ids provided by EasyChair with the event acronym (e.g. NIER-5, ME-2). This will avoid any collisions later on, and it will be really helpful to know which event a paper belongs to quickly.
+
+### Remove line breaks from paper titles in the exported metadata
+
+For some reason, the metadata exported from EasyChair sometimes includes line breaks in the titles of some papers. If these are not removed before uploading the metadata to the next system, authors will later receive an alert email saying that the title of their paper is different (even if the only difference is the line break). This causes confusion and unnecessary emails, so check the titles and remove these line breaks beforehand.
 
 ### Ask event organizers about prefaces
 
@@ -107,11 +121,11 @@ Also, being precise helps a lot. For us it even helped asking them how they will
 
 ## (ACM) Tips / Issues with their fix
 
-Some issues we faced where very specific to the article in question having them, so we do not comment them here. However, there were a few recurring issues that took most of our efforts during the CR process. You can find them below.
+Some issues we faced were very specific to the article in question having them, so we do not comment them here. However, there were a few recurring issues that took most of our efforts during the CR process. You can find them below.
 
 ### (ERights) Sent emails in batch is faulty
 
-There is an option in the ERights system that allows to send erights form emails to all authors that have not been notified *yet*. This is useful because you will be starting the CR process for some events before others (we recomend doing so as soon as the list of papers for an event is final). However, this does not work as it says, as all authors will receive a new email, independently on whether they already received one early. Unless that gets fixed in the future, just invest 20 seconds in selecting the papers you want to send the erights form email each time.
+There is an option in the ERights system that allows to send erights form emails to all authors that have not been notified *yet*. This is useful because you will be starting the CR process for some events before others (we recommend doing so as soon as the list of papers for an event is final). However, this does not work as it says, as all authors will receive a new email, independently on whether they already received one early. Unless that gets fixed in the future, just invest 20 seconds in selecting the papers you want to send the erights form email each time.
 
 ### (ERights) Form appears duplicated
 
@@ -121,13 +135,13 @@ In some cases, the row for some papers appears twice or more times, with some of
 
 This is usually found when the generated PDF proofs don't have the correct author names and affiliations, or when the final manuscript does not fit into the required paper length.
 
-The culprit for this were mostly mistakes in the [ERights form data](#acm-taps-issue-with-erights-details). What make this issue cumbersome is the required steps to fix it, because neither authors nor ourselves could do it without the help of TAPS support.
+The culprit for this were mostly mistakes in the [ERights form data](#acm-taps-issue-with-erights-details). What makes this issue cumbersome is the required steps to fix it, because neither authors nor ourselves could do it without the help of TAPS support.
 
 Check the steps to fix this in the [erights and taps reset folder](erights-and-taps-form-reset/).
 
 ### (TAPS) How to access author's dashboard
 
-There is no easy way to access authors' dashboards from your TAPS interface. However, this is useful, forn instance to read for pending support tickets (and sometims closing them by yourself is necessary for progress to happen).
+There is no easy way to access authors' dashboards from your TAPS interface. However, this is useful, for instance to read for pending support tickets (and sometimes closing them by yourself is necessary for progress to happen).
 
 You can access authors' dashboards by exporting the TAPS Excel metadata. Among all the column of the exported table, there is one, named `AUTHURL`, that you can use to access it, or to copy-paste it in your emails to ease the authors' part.
 
@@ -137,7 +151,7 @@ You can click on any of the TAPS column headers to sort articles by them, except
 
 ### (TAPS) Detect length issues eagerly sorting by pages
 
-If you short papers by pages length, you can detect issues that might go unnoticed. Sometimes authors approved papers that exceeded their page limits, generally due to [changes in their afilliation details in their forms](#erights--taps-form-mistake-needs-reset).
+If you sort papers by pages length, you can detect issues that might go unnoticed. Sometimes authors approved papers that exceeded their page limits, generally due to [changes in their affiliation details in their forms](#erights--taps-form-mistake-needs-reset).
 
 ### (TAPS) Paper blocked at 25%
 
@@ -169,6 +183,6 @@ don't worry, it will be fine in the end.
 ## Contributors
 
 - [Alfonso de la Vega](mailto:alfonso.delavega@unican.es) (MODELS'26 Proceedings Chair)
-- Iván Alfonso (MODELS'26 Proceedings Chair)
+- [Iván Alfonso](mailto:ivan.alfonso@list.lu) (MODELS'26 Proceedings Chair)
 
 If you are a newer ProC and want to contribute, please either send a pull request or an [email](mailto:alfonso.delavega@unican.es), so that we can give you access to the repository.
