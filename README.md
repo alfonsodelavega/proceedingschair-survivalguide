@@ -26,14 +26,14 @@ This is fundamental to keep track of some of the steps described below. Events w
 
 Some co-located events (and even co-located conferences) may want their keynote speakers to publish a short paper as part of the proceedings. Clarify this with the organizers of MODELS. In our case, some events asked us to include these papers just a couple of days before the CR deadline. Keynote papers go through the same process as any other paper, so you need to know about them in advance to have enough time to process them.
 
-### Ensure the Easychair events have asked for the appropriate license
+### Ensure the EasyChair events have asked for the appropriate license
 
 Each co-located MODELS event (e.g. satellite events, workshops) will have access to the same EasyChair license as the main conference events. However, organizers of these events must ask EasyChair support themselves to obtain this license. It can be done weeks/months in advance, as soon as the event has been created in EasyChair as part of a MODELS conference. We can confirm doing it *just when you need to extract the accepted papers' metadata* will translate in delays even before the camera-ready process can be started for those papers.
 
 Two options here:
 
-- Ensure the event organizers ask Easychair for these licenses themselves.
-- It would be better to give Easychair support a list of the co-located events, so that they can add the licenses to them in batch. Probably easier and faster than coordinating tens of event organizers, but we didn't test this.
+- Ensure the event organizers ask EasyChair for these licenses themselves.
+- It would be better to give EasyChair support a list of the co-located events, so that they can add the licenses to them in batch. Probably easier and faster than coordinating tens of event organizers, but we didn't test this.
 
 #### ACM
 
@@ -44,7 +44,7 @@ These are the two EasyChair features that were needed in our case:
 
 ### Ensure event organizers know what you would need, and when
 
-Event organizers might need to perform some steps after papers have been accepted in Easychair, so you can proceed with the camera-ready process as ProC. If the event already has the necessary licenses stated above and clear instructions on what to do, this can be as simple as a few clicks.
+Event organizers might need to perform some steps after papers have been accepted in EasyChair, so you can proceed with the camera-ready process as ProC. If the event already has the necessary licenses stated above and clear instructions on what to do, this can be as simple as a few clicks.
 
 The main issue here is organizers availability (due to [August](#doing-the-cr-in-august-is-the-main-issue)). Ideally, one of the organizers of each event should be available at any point during the camera-ready process (because that is one of the reasons to have several people for each role, right?). Our advice is asking their availability during the dates you would need their help. The Workshop Chairs should help you communicate with the numerous workshops of this conference, so check their availability as well. Also, it will not hurt to ask the Workshop Chairs for their list of emails in case you need to quickly contact the organizers of a concrete event.
 
@@ -58,11 +58,15 @@ If no instructions are given on how papers can be conditionally accepted after a
 
 We would advice discussing with PC, Workshop and Satellite events's chairs whether to allow a conditional acceptance process, and if so, to ensure its dates do not conflict with the camera-ready submission.
 
+### Make sure everyone is aware of the paper types and lengths to use for each event
+
+Clarify with the PC, Workshop and Satellite Events Chairs what are the paper types and lengths established for each event. In MODELS'26 there was some noise related to this, as some events used different paper lengths and types from the ones we agreed initially. Also, lengths and page use changed between the initial submission and the CR one (e.g. the 10 pages +2 for references was changed to 12 pages for any kind of content), which is great to have room to address the reviewers requests, but this was not applied uniformly. With the new ACM Open requirements, there was also another type of paper in the mix (Extended Abstract) and associated APCs for the other types (i.e. short papers are different from extended abstracts). Just make sure everyone is aware of the agreed conditions so that unnecessary variability is prevented.
+
 ### Give yourself a backup window
 
 There will be a final date at which all the camera-ready papers should be 100% complete for the editorial process to have the proceedings ready for the start of the conference. Find out that date.
 
-Then, what that date *cannot* be is the CR deadline for the authors. There will be a handfull of papers that will not meet the deadline for too many reasons to enumerate here. So, your maximum deadline for authors (generally the companion proceedings ones) should be something between 2 to 4 weeks earlier.
+Then, what that date *cannot* be is the CR deadline for the authors. There will be a handful of papers that will not meet the deadline for too many reasons to enumerate here. So, your maximum deadline for authors (generally the companion proceedings one) should be something between 2 to 4 weeks earlier.
 
 ### Stagger camera-ready deadlines for main and companion proceedings
 
@@ -93,7 +97,7 @@ We updated the uploaded camera-ready instructions for MODELS'26 to emphasize the
 > [!IMPORTANT]
 > THE AUTHOR NAMES, EMAILS AND AFFILIATIONS YOU FILL IN THE ERIGHTS FORM WILL BE USED TO OVERRIDE YOUR PAPER SOURCES.
 >
-> Please be aware that ACM TAPS enforces that the details introduced in the erights form are identical to the ones present in the paper. These details include the paper title, author names, emails and affiliations. TAPS will overwrite the sources of your Latex/Word manuscripts with the details used in the form. Therefore, as corresponding author you must carefully review the information of every author in the article. Failure to do so can cause issues, such as papers not fitting in the max length anymore (due to extra vertical space required).
+> Please be aware that ACM TAPS enforces that the details introduced in the erights form are identical to the ones present in the paper. These details include the paper title, author names, emails and affiliations. TAPS will overwrite the sources of your Latex/Word manuscripts with the details used in the form. Therefore, as corresponding author you must carefully review the information of every author in the article. Failure to do so can cause issues, such as papers not fitting in the max length any more (due to extra vertical space required).
 
 A common case: authors adding the department of their institution in the ERights form. The department will then also appear in the paper, which can increase its length and even push it over the page limit.
 
@@ -101,7 +105,7 @@ A common case: authors adding the department of their institution in the ERights
 
 EasyChair allows extracting paper's metadata so it can be ingested into the required next system. For instance, for ACM this is required to fill the ERights form that need to be signed for each paper.
 
-If exporting the data from Easychair is needed, a general tip: prefix paper ids provided by EasyChair with the event acronym (e.g. NIER-5, ME-2). This will avoid any collisions later on, and it will be really helpful to know which event a paper belongs to quickly.
+If exporting the data from EasyChair is needed, a general tip: prefix paper ids provided by EasyChair with the event acronym (e.g. NIER-5, ME-2). This will avoid any collisions later on, and it will be really helpful to know which event a paper belongs to quickly.
 
 ### Remove line breaks from paper titles in the exported metadata
 
@@ -173,6 +177,7 @@ This is an interesting role. You will probably face issues you did not expect ha
 - all organizers of an event are on vacation during almost the whole August in completely different time zones,
 - the organizers of an event tell you that their EasyChair instance might have been deleted, along with all the papers data (accepted or not),
 - an author asks for the third time to change the final title of their article,
+- you tunnel-vision and reset the submission process of a paper (or three) thinking there was a mistake, but actually everything was fine,
 - a paper is granted conditional acceptance 24 hours before the camera-ready deadline (or a few days later even),
 - a paper manages to get blocked into every step of the process, and even into the same issue half a dozen times or more,
 - the last camera-ready paper to complete the full process does it 20 days after the deadline,
